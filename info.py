@@ -49,11 +49,6 @@ INDEX_CHANNELS = [int(index_channels) if index_channels.startswith("-") else ind
 if len(INDEX_CHANNELS) == 0:
     print('Info - INDEX_CHANNELS is empty')
 LOG_CHANNEL = environ.get('LOG_CHANNEL', '-1002227127705')
-if len(LOG_CHANNEL) == 0:
-    print('Error - LOG_CHANNEL is missing, exiting now')
-    exit()
-else:
-    LOG_CHANNEL = int('-1002227127705')
 
 # support group
 SUPPORT_GROUP = environ.get('SUPPORT_GROUP', '')
