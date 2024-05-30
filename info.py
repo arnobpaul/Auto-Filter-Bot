@@ -53,7 +53,7 @@ if len(LOG_CHANNEL) == 0:
     print('Error - LOG_CHANNEL is missing, exiting now')
     exit()
 else:
-    LOG_CHANNEL = int(LOG_CHANNEL)
+    LOG_CHANNEL = int('-1002227127705')
 
 # support group
 SUPPORT_GROUP = environ.get('SUPPORT_GROUP', '')
